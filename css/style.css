@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.hero {
+  background-image: url('/image/FONDO.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.hero h1{
+  background: rgba(0, 0, 0, 0.2)
+}
+
+.navegador {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.navegador a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.navegador .active {
+  color: #00bfff;
+}
+
+.Contenido {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.Contenido h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+
+.SobreNosotros {
+  padding: 60px 40px;
+  background: #fff;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+   margin-bottom: 1rem; 
+}
+
+.SobreNosotros-conteiner {
+  display: flex;
+  gap: 40px;
+}
+
+.nosotros-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.nosotros-img {
+  flex: 1;
+  max-width: 50%;
+}
+
+.nosotros-img img {
+ width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  background: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.service1 {
+  flex: 1;
+  max-width: 500px;
+  margin: 0 20px;
+}
+
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background: #fff;
+}
+
+.team img {
+  width: 22%;
+  border-radius: 10px;
+}
+
+
+.cta {
+  background: linear-gradient(to right, #d3f3d3, #b9e5e5);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  margin-bottom: 30px;
+}
+
+.cta .btn {
+  background: #00bfff;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: #111;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section input[type=email] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.NEWSLETTER button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #00bfff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.copyright{
+  background-color: #111;
+}
+.copyright p {
+  color: #f5f5f5;
+}
